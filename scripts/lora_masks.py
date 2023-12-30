@@ -55,8 +55,10 @@ class Script(scripts.Script):
 
         with gr.Group():
             with gr.Accordion("Lora Masks", open=False):
-                gr.HTML(value="<a href='https://youtu.be/q-KGRRFARk4' style='color: red; text-decoration: none; font-size: 1.4em;'>📺</a>\
-<a href='https://www.patreon.com/lifeisboringsoprogramming' style='color: red; text-decoration: none; font-size: 1.4em;'>☕️</a>")
+                gr.HTML(value="<div style='text-align: right;'> \
+    <a href='https://www.patreon.com/lifeisboringsoprogramming' style='color: red; text-decoration: none; font-size: 1.4em;'>☕️</a> \
+    <a href='https://youtu.be/q-KGRRFARk4' style='color: red; text-decoration: none; font-size: 1.4em;'>📺</a> \
+</div>")
                 
                 with gr.Row():
                     enabled = gr.Checkbox(label="Enable", value=False)
